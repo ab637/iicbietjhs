@@ -1222,8 +1222,9 @@ Main Banner CSS
 }
 
 .home-slides.owl-theme .owl-nav [class*=owl-].owl-next {
-    left: auto;
-    right: 10px;
+    left: 10px;
+    right: auto;
+    
 }
 
 .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
@@ -1833,7 +1834,7 @@ Speakers CSS
 .single-speakers ul li a:focus {
     background-color: #FF2D55;
     color: #ffffff;
-}dkfkjkldk
+}
 
 .single-speakers:hover .speakers-content,
 .single-speakers:focus .speakers-content {
