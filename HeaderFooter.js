@@ -47,7 +47,7 @@ class MyHeader extends HTMLElement {
                        <a href="../events/index.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Innovanza'22</a>
                       <div class="dropdown-menu m-0">
                         <a href="../events/CodeEThon.html" class="dropdown-item">Code-E-Thon</a>
-                        <a href=" " class="dropdown-item">HackThon</a>
+                        <a href="../team/index.html" class="dropdown-item">HackThon</a>
                         <a href=" " class="dropdown-item">Setu Nirman</a>
                         <a href=" " class="dropdown-item">Egg Drop</a>
                         <a href=" " class="dropdown-item">F1 Racing</a>
@@ -71,7 +71,7 @@ class MyHeader extends HTMLElement {
                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About US</a>
                       <div class="dropdown-menu m-0">
                         <a href="../about.html#mission" class="dropdown-item">Mission</a>
-                        <a href="../about.html#ourteam" class="dropdown-item">Our Team</a>
+                        <a href="team/about.html" class="dropdown-item">Our Team</a>
                       </div>
                     </div>
                  

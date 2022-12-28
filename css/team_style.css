@@ -10,9 +10,6 @@ body
   background-size: cover;
   
 }
-
-
-
 .owl-nav .owl-prev, .owl-nav .owl-next {
     top: 30%;
     position: absolute;
@@ -34,8 +31,6 @@ body
     position: relative;
     left: 0px;
 }
-
-
 
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -62,7 +57,6 @@ body
 }
 .team_card
 {
-  
     background-color: var(--back);
     align-content: center;
     width: 100%;
@@ -71,9 +65,7 @@ body
     border-radius: 10px;
 }
 .team_DP
-{
-  
-  
+{ 
   background-color: var(--back);
   width: 30%;
   height: auto;
