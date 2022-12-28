@@ -452,4 +452,73 @@
 
 
 
+/* ///////////////////////////// CUSTOM CSS /////////////////////////////////////////////////// */
+.logod-cont
+{
+    
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  
+}
 
+.logod
+{
+    width: 80%;
+}
+.president
+{
+   
+    text-align: right;
+    
+}
+.phone
+{
+    display: none;
+}
+.director
+{
+    width: 60%;border-radius: 500px;border: 14.4px solid rgb(255,122,0) ;
+}
+.carousel-detail
+ {
+        font-size: 24px;
+    }
+
+@media only screen and (max-width: 600px) {
+    .logod-cont {
+     
+      margin-top: -50px;
+      margin-bottom: 20px;
+      z-index: -1;
+    }
+    .logod
+    {
+        width: 100%;
+    }
+    .desktop
+    {
+        display: none;
+    }
+    .phone
+    {
+        display: block;
+    }
+    .director
+    {
+        width: 100%;
+        border-width: 10px;
+    }
+    .carousel-heading
+    {
+        font-size: 24px;
+        padding: 30px;
+        padding-bottom: 0px;
+    }
+    .carousel-detail
+    {
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  }
