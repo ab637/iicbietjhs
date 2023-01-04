@@ -2,11 +2,3 @@
 :root{
     --back:rgb(255,122,0);
   }
-body
-{
-  background-image: url('../img/team_black.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  
-}

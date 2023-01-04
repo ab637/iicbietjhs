@@ -404,7 +404,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #d45e0f;
+  background: #00308F;
 }
 
 #hero .container {
@@ -596,12 +596,12 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 12px 0;
+  padding:12px 0;
   text-align: center;
 }
 
 .clients img {
-  max-width: 45%;
+  max-width: 70%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -918,7 +918,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(175, 137, 24, 0.9), rgba(126, 69, 8, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(175, 137, 24, 0.9), rgba(126, 69, 8, 0.9)), url("../img/contact-us-bg.png") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }

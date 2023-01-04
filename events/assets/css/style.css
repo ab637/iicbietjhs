@@ -287,7 +287,7 @@ h6 {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
     font-weight: unset;
-    background-size: 100px 1.07em !important;
+    background-size: 100px 1.3em !important;
 }
 
 .section-title .btn {
@@ -772,7 +772,7 @@ Main Banner CSS
 }
 
 .item-bg1 {
-    background-image: url(../../assets/img/main-bg1.jpg);
+    background-image: url(../../assets/img/landing_image.png);
 }
 
 .item-bg2 {
@@ -824,8 +824,8 @@ Main Banner CSS
 
 .main-banner-content h1 span {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
-    background-size: 100px 1.2em !important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #FF2D55 80%);
+    background-size: 100px 1.36em !important;
 }
 
 .main-banner-content h1 b:nth-of-type(1) {
@@ -1222,9 +1222,8 @@ Main Banner CSS
 }
 
 .home-slides.owl-theme .owl-nav [class*=owl-].owl-next {
-    left: 10px;
-    right: auto;
-    
+    left: auto;
+    right: 10px;
 }
 
 .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
@@ -1335,7 +1334,7 @@ About CSS
     background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
     font-weight: unset;
-    background-size: 100px 1.05em !important;
+    background-size: 100px 1.3em !important;
 }
 
 .about-content .signature {
@@ -1353,11 +1352,17 @@ About CSS
 
 .about-image .about-img1 {
     position: relative;
-    right: -100px;
-    top: -80px;
+    right: -10px;
+    top: -40px;
+    
 }
 
 .about-image .about-img2 {
+    position: absolute;
+    left: 140px;
+    bottom: -100px;
+}
+.about-image .about-img3 {
     position: absolute;
     left: 20px;
     bottom: -80px;
@@ -1365,10 +1370,10 @@ About CSS
 
 .about-image .shape-img {
     position: absolute;
-    top: -28px;
-    left: 48%;
-    -webkit-animation: movebounce 5s linear infinite;
-    animation: movebounce 5s linear infinite;
+    top: 440px;
+    left: 1%;
+    -webkit-animation: movebounce 7s linear infinite;
+    animation: movebounce 7s linear infinite;
 }
 
 .about-image .btn {
@@ -1479,6 +1484,7 @@ Why Choose Us CSS
 .why-choose-us {
     position: relative;
     z-index: 1;
+    padding-bottom: 20px;
 }
 
 .why-choose-us::before {
@@ -1519,23 +1525,23 @@ Why Choose Us CSS
 }
 
 .why-choose-us .slideshow li:nth-child(1) span {
-    background-image: url(../../assets/img/slideshow-bg1.jpg);
+    background-image: url(../../assets/img/slected-pics/fun.jpg);
 }
 
 .why-choose-us .slideshow li:nth-child(2) span {
-    background-image: url(../../assets/img/slideshow-bg2.jpg);
+    background-image: url(../../assets/img/slected-pics/great-speaker-1.JPG);
     -webkit-animation-delay: 6s;
     animation-delay: 6s;
 }
 
 .why-choose-us .slideshow li:nth-child(3) span {
-    background-image: url(../../assets/img/slideshow-bg3.jpg);
+    background-image: url(../../assets/img/slected-pics/great\ speakers.jpeg);
     -webkit-animation-delay: 12s;
     animation-delay: 12s;
 }
 
 .why-choose-us .slideshow li:nth-child(4) span {
-    background-image: url(../../assets/img/slideshow-bg4.jpg);
+    background-image: url(../../assets/img/slected-pics/networking.jpeg);
     -webkit-animation-delay: 18s;
     animation-delay: 18s;
 }
@@ -1834,7 +1840,7 @@ Speakers CSS
 .single-speakers ul li a:focus {
     background-color: #FF2D55;
     color: #ffffff;
-}
+}dkfkjkldk
 
 .single-speakers:hover .speakers-content,
 .single-speakers:focus .speakers-content {
