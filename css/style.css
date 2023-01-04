@@ -522,3 +522,18 @@
         padding-right: 30px;
     }
   }
+
+  #nav-responsive-big{
+    display: none;
+}
+#nav-responsive-small{
+    display: block;
+}
+  @media (min-width: 595px) {
+    #nav-responsive-big{
+        display: block;
+    }
+    #nav-responsive-small{
+        display: none;
+    }
+}
